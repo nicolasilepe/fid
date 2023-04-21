@@ -4,31 +4,29 @@ body {
   font-size: 100%;
   line-height: 175%;
   margin: 0 15% 0;
-  background: #faf2e4 url(images/blackgoose.png) no-repeat center 100px fixed;
+  background: #addded url(images/blackgoose.png) no-repeat center 100px fixed;
 }
 header {
   margin-top: 0;
   padding: 3em 1em 2em 1em;
   text-align: center;
   background: url(images/purpledot.png) center top repeat-x;
-  background: url(images/purpledot.png) left top repeat-y,
-              url(images/purpledot.png) right top repeat-y,
-              url(images/gooseshadow.png) 90% bottom no-repeat;
-  background-color: rgba(255,255,255,.5);
+  background: url(images/gooseshadow.png) 90% bottom no-repeat;
+  background-color: rgba(190, 209, 230,.5);
 }
 
 a {
   text-decoration: none;
 }
 a:link {
-  color: #939;
+  color: #b87d25;
 }
 a:visited {
-  color: #937393;
+  color: #453722;
 }
 a:focus, a:hover {
-  color: #c700f2;
-  background-color: #fff;
+  color: #b87006;
+  background-color: #d1c5b2;
 }
 a:active {
   color: #f0f;
@@ -36,8 +34,9 @@ a:active {
 }
 h1 {
   font: bold 1.5em Georgia, serif;
-  text-shadow: .1em .1em .2em gray;
-  color: #939;
+  text-shadow: .1em .1em .1em gray;
+  color: #ed7809;
+  border-bottom: 2px solid #57b1dc;
 }
 h2 {
   font-size: 1em;
@@ -66,6 +65,7 @@ ul {
 }
 p.warning, sup {
   font-size: small;
+  color: red;
 }
 .label {
   font-weight: bold;
