@@ -1,0 +1,65 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Viga&display=swap');
+body {
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(15, 60, 209));
+    font-family: sans-serif;
+    margin: 0 10%;
+    background-attachment: fixed;
+  }
+nav {
+    color: #000;
+    font-size: larger;
+    background-color: lightblue;
+    text-align: right;
+    line-height: 4;
+}
+h1 {
+  text-align: center;
+  font-family: 'Acme';
+  font-weight: normal;
+  text-transform: uppercase;
+  border-bottom: 1px solid #000000;
+  margin-top: 30px;
+}
+p {
+    font-weight: normal;
+    font-family: sans-serif;
+    text-align: left;
+}
+h2 {
+text-align: left;
+font-family:'Viga', sans-serif;
+color: #000000;
+font-size: 1.5em;
+}
+article {
+    text-align: left;
+    margin-left: 20px;
+}
+footer {
+	  border-bottom: 1px solid #57b1dc;
+	  text-align: left;
+	  padding-top: 1em;
+}
+a {
+    text-decoration: none;
+}
+a:link{
+    color: #ff0000;
+}
+a: visited {
+    color: gray;
+}
+a: focus {
+    color: white;
+    background-color: darkblue;
+}
+a:hover{
+    color: white;
+    background-color: darkblue;
+}
+a:active {
+    color: red
+    background-color: darkblue;
+} 
